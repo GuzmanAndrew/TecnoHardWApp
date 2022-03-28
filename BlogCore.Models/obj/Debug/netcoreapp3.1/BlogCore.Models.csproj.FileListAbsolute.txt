@@ -1,0 +1,18 @@
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.deps.json
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.csprojAssemblyReference.cache
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfoInputs.cache
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfo.cs
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\JANUS\Desktop\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.pdb
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.deps.json
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.csproj.AssemblyReference.cache
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfoInputs.cache
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.AssemblyInfo.cs
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.csproj.CoreCompileInputs.cache
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.dll
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore.Models\obj\Debug\netcoreapp3.1\BlogCore.Models.pdb
