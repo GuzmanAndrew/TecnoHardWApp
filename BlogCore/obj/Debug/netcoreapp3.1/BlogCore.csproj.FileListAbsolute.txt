@@ -971,3 +971,5 @@ C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\Blo
 C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.dll
 C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.pdb
 C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\BlogCore.genruntimeconfig.cache
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Cliente\Views\Home\About.cshtml.g.cs
+C:\Users\andrew\Downloads\ArchivosCompeltos\Proyecto 2 - BlogCore - Completo\BlogCore\BlogCore\BlogCore\obj\Debug\netcoreapp3.1\Razor\Areas\Cliente\Views\Home\Contact.cshtml.g.cs

@@ -46,5 +46,15 @@ namespace BlogCore.Controllers
             return View(homeVm);
         }
 
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
     }
 }

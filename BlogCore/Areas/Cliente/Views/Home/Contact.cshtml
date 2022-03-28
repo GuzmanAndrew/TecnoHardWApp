@@ -1,0 +1,45 @@
+﻿@model BlogCore.Models.ViewModels.HomeVM
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container" style="padding-top: 65px;">
+  <div class="row">
+    <div class="col-xl-1">
+    </div>
+    <div class="col-xl-5">
+        <div class="card">
+            <div class="card-body">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6015313806483!2d-74.0591203846744!3d4.664917943264359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a5f3eef53bb%3A0xcf9a8eba4e173280!2sTauret%20computadores!5e0!3m2!1ses!2sco!4v1648442813957!5m2!1ses!2sco" width="492" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-5">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                      <!-- Name input -->
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example3">Nombre Completo</label>
+                        <input type="text" id="form3Example3" class="form-control" />
+                      </div>
+                      <!-- Email input -->
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form3Example4">Correo</label>
+                        <input type="email" id="form3Example4" class="form-control" />
+                      </div>
+                      <!-- Message input -->
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form4Example5">Message</label>
+                        <textarea class="form-control" id="form4Example5" rows="4"></textarea>
+                      </div>
+                      <!-- Submit button -->
+                      <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-1">
+    </div>
+  </div>
+</div>
