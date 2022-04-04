@@ -49,10 +49,10 @@ namespace BlogCore.AccesoDatos.Data.Inicializador
                 Email = "admin@blesoft.com",
                 EmailConfirmed = true,
                 Nombre = "Admin"
-            }, "admin123*").GetAwaiter().GetResult();
+            }, "Admin123*").GetAwaiter().GetResult();
 
             ApplicationUser usuario = _db.ApplicationUser
-                .Where(us => us.Email == "admin@render2web.com")
+                .Where(us => us.Email == "admin@blesoft.com")
                 .FirstOrDefault();
             _userManager.AddToRoleAsync(usuario, CNT.Admin).GetAwaiter().GetResult();
         

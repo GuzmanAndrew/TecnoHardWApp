@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BlogCore.AccesoDatos.Migrations
 {
-    public partial class CreacionTablaInicialCategoria : Migration
+    public partial class CreadaEntidadSlider : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -71,7 +71,6 @@ namespace BlogCore.AccesoDatos.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(nullable: false),
-                    Estado = table.Column<bool>(nullable: false),
                     UrlImagen = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
@@ -192,8 +191,11 @@ namespace BlogCore.AccesoDatos.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(nullable: false),
+                    Precio = table.Column<float>(nullable: false),
+                    Stock = table.Column<int>(nullable: false),
                     Descripcion = table.Column<string>(nullable: false),
                     FechaCreacion = table.Column<string>(nullable: true),
+                    Proveedor = table.Column<string>(nullable: true),
                     UrlImagen = table.Column<string>(nullable: true),
                     CategoriaId = table.Column<int>(nullable: false)
                 },

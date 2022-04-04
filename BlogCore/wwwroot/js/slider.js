@@ -14,7 +14,6 @@ function cargarDatatable() {
         "columns": [
             { "data": "id", "width": "5%" },
             { "data": "nombre", "width": "35%" },
-            { "data": "estado", "width": "20%" },
             {
                 "data": "urlImagen",
                 "render": function (imagen) {

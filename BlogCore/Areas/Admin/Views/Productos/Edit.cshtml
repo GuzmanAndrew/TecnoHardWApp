@@ -21,7 +21,7 @@
                     <span asp-validation-for="Articulo.Nombre" class="text-danger"></span>
                 </div>
             </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Articulo.Descripcion"></label>
@@ -31,37 +31,27 @@
                     <span asp-validation-for="Articulo.Descripcion" class="text-danger"></span>
                 </div>
             </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Articulo.Precio"></label>
                 </div>
                 <div class="col-8">
-                    <textarea asp-for="Articulo.Precio" class="form-control" style="height:300px;"></textarea>
+                    <input asp-for="Articulo.Precio" class="form-control" />
                     <span asp-validation-for="Articulo.Precio" class="text-danger"></span>
                 </div>
             </div>
-
-            <div class="form-group row">
-                <div class="col-4">
-                    <label asp-for="Articulo.Proveedor"></label>
-                </div>
-                <div class="col-8">
-                    <textarea asp-for="Articulo.Proveedor" class="form-control" style="height:300px;"></textarea>
-                    <span asp-validation-for="Articulo.Proveedor" class="text-danger"></span>
-                </div>
-            </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Articulo.Stock"></label>
                 </div>
                 <div class="col-8">
-                    <textarea asp-for="Articulo.Stock" class="form-control" style="height:300px;"></textarea>
+                    <input asp-for="Articulo.Stock" class="form-control" />
                     <span asp-validation-for="Articulo.Stock" class="text-danger"></span>
                 </div>
             </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Articulo.CategoriaId"></label>
@@ -71,7 +61,7 @@
                      "-Porfavor seleccione una categoría-", new { @class = "form-control" })
                 </div>
             </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Articulo.UrlImagen"></label>
@@ -80,7 +70,7 @@
                     <input type="file" name="archivos" id="subidaArchivo" class="form-control" />
                 </div>
             </div>
-
+            <br />
             <div class="form-group row">
                 <div class="col-8 offset-4">
                     <div class="row">
@@ -93,7 +83,7 @@
                     </div>
                 </div>
             </div>
-
+            <br />
         </div>
         <div class="col-4 pt-3">
             <img src="@Model.Articulo.UrlImagen" width="100%" style="border-radius:5px; border: 1px solid #bbb9b9;" />

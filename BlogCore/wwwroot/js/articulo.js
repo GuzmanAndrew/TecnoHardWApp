@@ -6,9 +6,9 @@ $(document).ready(function () {
 
 
 function cargarDatatable() {
-    dataTable = $("#tblArticulo").DataTable({
+    dataTable = $("#tblArticulos").DataTable({
         "ajax": {
-            "url": "/admin/articulos/GetAll",
+            "url": "/admin/productos/GetAll",
             "type": "GET",
             "datatype": "json"
         },
@@ -21,11 +21,11 @@ function cargarDatatable() {
                 "data": "id",
                 "render": function (data) {
                     return `<div class="text-center">
-                            <a href='/Admin/Articulos/Edit/${data}' class='btn btn-success text-white' style='cursor:pointer; width:100px;'>
+                            <a href='/Admin/Productos/Edit/${data}' class='btn btn-success text-white' style='cursor:pointer; width:100px;'>
                             <i class='fas fa-edit'></i> Editar
                             </a>
                             &nbsp;
-                            <a onclick=Delete("/Admin/Articulos/Delete/${data}") class='btn btn-danger text-white' style='cursor:pointer; width:100px;'>
+                            <a onclick=Delete("/Admin/Productos/Delete/${data}") class='btn btn-danger text-white' style='cursor:pointer; width:100px;'>
                             <i class='fas fa-trash-alt'></i> Borrar
                             </a>
                             `;
@@ -38,6 +38,7 @@ function cargarDatatable() {
         "width": "100%"
     });
 }
+
 
 function Delete(url) {
     swal({

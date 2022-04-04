@@ -12,9 +12,6 @@ namespace BlogCore.Models
         [Required(ErrorMessage = "Ingrese un nombre para el slider")]
         [Display(Name = "Nombre Slider")]
         public string Nombre { get; set; }
-        [Required]
-        [Display(Name = "Estado")]
-        public bool Estado { get; set; }
 
         [DataType(DataType.ImageUrl)]
         [Display(Name = "Imagen")]
