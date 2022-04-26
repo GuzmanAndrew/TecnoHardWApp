@@ -20,21 +20,21 @@
                 <form>
                       <!-- Name input -->
                       <div class="form-outline mb-4">
-                        <label class="form-label" for="form3Example3">Nombre Completo</label>
-                        <input type="text" id="form3Example3" class="form-control" />
+                        <label class="form-label" for="nombre">Nombre Completo</label>
+                        <input type="text" id="nombre" class="form-control" required/>
                       </div>
                       <!-- Email input -->
                       <div class="form-outline mb-4">
-                        <label class="form-label" for="form3Example4">Correo</label>
-                        <input type="email" id="form3Example4" class="form-control" />
+                        <label class="form-label" for="email">Correo</label>
+                        <input type="email" id="email" class="form-control" required/>
                       </div>
                       <!-- Message input -->
                       <div class="form-outline mb-4">
-                        <label class="form-label" for="form4Example5">Message</label>
-                        <textarea class="form-control" id="form4Example5" rows="4"></textarea>
+                        <label class="form-label" for="mensaje">Message</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
                       </div>
                       <!-- Submit button -->
-                      <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                      <button type="submit" class="btn btn-primary btn-block mb-4" onclick="sendForm()">Enviar</button>
                 </form>
             </div>
         </div>
